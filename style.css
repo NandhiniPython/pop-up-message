@@ -1,0 +1,47 @@
+body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.container  {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading    {
+    background-color: blue;
+    text-align: center;
+}
+
+
+.background-image   {
+    background: url('./images/tomjerry-1.jpg') no-repeat;
+    opacity: .50;
+    width: 150vh;
+    
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-table;
+    vertical-align: bottom;
+}
+
+.btn-close {
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: .25em .25em;
+    color: white;
+    
+    border-radius: .25rem;
+    opacity: .5;
+  }
+
+
